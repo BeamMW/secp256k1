@@ -56,7 +56,7 @@ if(SECP256K1_ENABLE_MODULE_ECDH)
   add_compile_definitions(ENABLE_MODULE_ECDH=1)
 endif()
 
-option(SECP256K1_ENABLE_MODULE_RECOVERY "Enable ECDSA pubkey recovery module." OFF)
+option(SECP256K1_ENABLE_MODULE_RECOVERY "Enable ECDSA pubkey recovery module." ON)
 if(SECP256K1_ENABLE_MODULE_RECOVERY)
   add_compile_definitions(ENABLE_MODULE_RECOVERY=1)
 endif()
